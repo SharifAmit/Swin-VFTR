@@ -67,3 +67,8 @@ from monai.transforms import (
 from monai.utils import set_determinism
 %matplotlib inline
 print_config()
+
+def train():
+    
+if __name__ == "__main__":
+    
