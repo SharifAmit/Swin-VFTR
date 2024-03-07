@@ -1032,10 +1032,4 @@ class Swin_VFTR(nn.Module):
         if self.evaluation==True:
             return logits
         else:
-            f1 = torch.sum(torch.abs(dec2-hidden_states_out[2]))
-            f2 = torch.sum(torch.abs(dec1-enc2))
-            f3 = torch.sum(torch.abs(dec0-enc1))
-            f = f1 + f2 + f3
-            arr1.append([dec2,dec1,dec0])
-            arr2.append([hidden_states_out[2],enc2,enc1])
-            return logits,arr1,arr2
+            return logits
