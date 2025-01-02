@@ -1,6 +1,7 @@
 # Swin-VFTR
 This code is for our paper "SwinVFTR: A Novel Volumetric Feature-learning
 Transformer for 3D OCT Fluid Segmentation" implemented with PyTorch. 
+** Accepted to ISBI 2025**
 
 ![](img1.png)
 
